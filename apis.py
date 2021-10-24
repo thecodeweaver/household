@@ -16,4 +16,4 @@ def city_search(city):
     zestimate = parsed_json['bundle'][0]['zestimate']
     address = parsed_json['bundle'][0]['address']
 
-    return (address, zestimate, zillow_url)
+    return (address, zillow_url, zestimate)
